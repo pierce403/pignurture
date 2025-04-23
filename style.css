@@ -1,20 +1,29 @@
 /* Basic styles for Pig Nurture website */
 
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --bg-color: #fdfaf6;
+    --text-color: #4a4a4a;
+    --primary-color: #023047;
+    --secondary-color: #74c69d;
+    --accent-color: #a8d8ea;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     line-height: 1.7;
     margin: 0;
     padding: 0;
-    background-color: #fdfaf6;
-    color: #4a4a4a;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 header {
-    background: #a8d8ea;
-    color: #3e5060;
+    background: var(--accent-color);
+    color: var(--primary-color);
     padding: 1.5rem 0;
     text-align: center;
-    border-bottom: 3px solid #8ecae6;
+    border-bottom: 3px solid var(--secondary-color);
 }
 
 header h1 {
@@ -24,7 +33,7 @@ header h1 {
 
 header p {
     font-size: 1.1em;
-    color: #0b7a75;
+    color: var(--secondary-color);
 }
 
 main {
@@ -47,12 +56,12 @@ footer {
 }
 
 h1, h2 {
-    color: #023047;
+    color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
 h2 {
-    border-bottom: 2px solid #74c69d;
+    border-bottom: 2px solid var(--secondary-color);
     padding-bottom: 0.3rem;
     display: inline-block;
 }
@@ -68,4 +77,48 @@ img {
     margin: 1.5rem auto 2rem auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
 } 
