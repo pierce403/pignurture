@@ -1,42 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pig Nurture - Reclaiming Loved Ones from Scams</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pig Nurture</title>
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Pig Nurture</h1>
-        <p>Helping families navigate and resolve pig butchering scams.</p>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#mission">Our Mission</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- HEADER -->
+  <header>
+    <div class="container header-inner">
+      <div class="branding">
+        <div class="logo">Pig Nurture</div>
+        <div class="tagline">
+          Helping families navigate and resolve pig butchering scams.
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#mission">Our Mission</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <img class="hero-img" src="images/pignurture.png" alt="Illustration of a child gently hugging a large, friendly pig">
-        <a href="#contact" class="btn">Get Help Now</a>
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Hero Image -->
+    <section class="hero-card">
+      <!-- put your hug image in assets/pig-hug.png -->
+      <img src="images/pignurture.png" alt="Happy kid hugging pig" />
+    </section>
 
-        <h2 id="mission">Our Mission</h2>
-        <p>It's heartbreaking to watch a loved one become entangled in a pig butchering scam, losing their savings and emotional well-being to manipulators. Pig Nurture exists to offer a lifeline. We understand the helplessness families feel and provide a compassionate, strategic path toward reclaiming your family member.</p>
+    <!-- Mission Section -->
+    <section class="container" id="mission">
+      <a href="/get-help" class="btn-primary">Get Help Now</a>
+      <h2>Our Mission</h2>
+      <p>
+        It’s heartbreaking to watch a loved one become entangled in a pig
+        butchering scam, losing their savings and emotional well-being to
+        manipulators. Pig Nurture exists to offer a lifeline. We understand the
+        helplessness families feel and provide a compassionate, strategic path
+        toward reclaiming your family member.
+      </p>
+    </section>
 
-        <h2 id="how-it-works">How It Works</h2>
-        <p>Our unique approach involves carefully intervening in the communication channel. With your consent and cooperation, we gain access to the device used for communication. We then clone the scammer's profile and contact information, effectively replacing them in your loved one's chat applications. From there, we continue the "relationship" benignly, slowly reducing contact and gently steering the conversation towards ending the interaction, all without raising the scammer's suspicion or causing further distress to your family member.</p>
+    <!-- How It Works -->
+    <section class="container" id="how">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Reach out to our team via the form or phone.</li>
+        <li>We analyze your case and craft a recovery plan.</li>
+        <li>Implement targeted interventions.</li>
+        <li>Provide ongoing support until resolution.</li>
+      </ol>
+    </section>
 
-        <h2 id="contact">Contact Us</h2>
-        <p>Information on how to reach out will be available here.</p>
-    </main>
+    <!-- Contact -->
+    <section class="container" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        📧 <a href="mailto:contact@pignurture.com">contact@pignurture.com</a><br />
+        📞 1-800-PIG-HELP
+      </p>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2024 Pig Nurture. All rights reserved.</p>
-    </footer>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pig Nurture. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
-</html> 
+</html>
