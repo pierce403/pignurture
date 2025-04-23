@@ -24,7 +24,7 @@ header h1 {
 
 header p {
     font-size: 1.1em;
-    color: #219ebc;
+    color: #0b7a75;
 }
 
 main {
@@ -52,7 +52,7 @@ h1, h2 {
 }
 
 h2 {
-    border-bottom: 2px solid #8ecae6;
+    border-bottom: 2px solid #74c69d;
     padding-bottom: 0.3rem;
     display: inline-block;
 }

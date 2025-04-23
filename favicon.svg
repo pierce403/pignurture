@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8b4c4; /* Light pink for pig body */
+        stroke: #e598af; /* Darker pink for outline */
+        stroke-width: 3px;
+      }
+      .cls-2 {
+        fill: #4a4a4a; /* Dark grey for eyes/nostrils */
+      }
+    </style>
+  </defs>
+  <title>Pig Favicon</title>
+  <!-- Body -->
+  <ellipse class="cls-1" cx="50" cy="55" rx="40" ry="30"/>
+  <!-- Snout -->
+  <ellipse class="cls-1" cx="50" cy="60" rx="18" ry="12"/>
+  <!-- Ears -->
+  <path class="cls-1" d="M30,35 Q35,15 50,30 Z"/>
+  <path class="cls-1" d="M70,35 Q65,15 50,30 Z"/>
+  <!-- Eyes -->
+  <circle class="cls-2" cx="38" cy="48" r="3"/>
+  <circle class="cls-2" cx="62" cy="48" r="3"/>
+  <!-- Nostrils -->
+  <circle class="cls-2" cx="45" cy="61" r="2"/>
+  <circle class="cls-2" cx="55" cy="61" r="2"/>
+</svg> 
